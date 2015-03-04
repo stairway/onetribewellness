@@ -1,0 +1,31 @@
+/*
+
+Theme Name: One Tribe Wellness
+Theme URI: http://theme.co/x/
+Author: Andrew Haller
+Author URI: 
+Description: 
+Version: 1.0.0
+Template: x
+
+*/
+
+@import url( '../x/framework/css/site/stacks/renew.css' );
+
+.woocommerce li.product .entry-featured a, 
+.woocommerce-page li.product .entry-featured a {
+    display: block;
+    height: 300px;
+    text-align: center;
+}
+
+.woocommerce li.product .entry-featured img, 
+.woocommerce-page li.product .entry-featured img {
+    height: 100%;
+    width: auto;
+    min-width: auto !important;
+}
+
+.otw_white {
+	color: #ffffff !important;
+}
